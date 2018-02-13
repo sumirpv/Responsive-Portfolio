@@ -44,6 +44,18 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 5s;
+
+}
+@keyframes example {
+  0%   {color: rgb(129, 12, 12);}
+  25%  {color: greenyellow;}
+  50%  {color: blue;}
+  100% {color: green;}
 }
 
 h2,
